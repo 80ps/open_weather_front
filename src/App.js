@@ -1,25 +1,16 @@
 import React from 'react';
 import Weather from './weather';
 
-
-
 function App() {
-
-
-
   return (
     <div>
-    <Routes>
-    
+    <BrowserRouter>
       <Weather/>
-    </Routes>
-   
+      <App/>
+    </BrowserRouter>
     </div>
   );
 }
 
 
 export default App;
-<BrowserRouter>
-<App />
-</BrowserRouter>
